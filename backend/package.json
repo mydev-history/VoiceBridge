@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.4.0",
+    "@supabase/supabase-js": "^2.50.1",
+    "axios": "^1.6.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "openai": "^5.7.0",
+    "stripe": "^18.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "twilio": "^5.7.1",
+    "ws": "^8.18.2"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test-webhooks.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

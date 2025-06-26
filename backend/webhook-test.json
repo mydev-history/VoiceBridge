@@ -1,0 +1,14 @@
+{
+  "id": "evt_test_payment_intent_succeeded",
+  "object": "event",
+  "type": "payment_intent.succeeded",
+  "data": {
+    "object": {
+      "id": "pi_test_123",
+      "object": "payment_intent",
+      "amount": 9900,
+      "currency": "usd",
+      "status": "succeeded"
+    }
+  }
+}
